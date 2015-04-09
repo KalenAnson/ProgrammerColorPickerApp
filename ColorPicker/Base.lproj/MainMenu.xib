@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6154.21" systemVersion="14A299l" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6154.21"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6751"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -10,7 +10,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <objectController id="D2R-5A-Zrz"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ColorPicker" customModuleProvider="target">
             <connections>
@@ -676,11 +676,10 @@
         </menu>
         <window title="ColorPicker" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="279" height="440"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <rect key="contentRect" x="100" y="390" width="279" height="447"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="279" height="440"/>
+                <rect key="frame" x="0.0" y="0.0" width="279" height="447"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HvI-wh-dRs">
@@ -764,7 +763,7 @@
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EiM-pt-2rQ">
                         <rect key="frame" x="18" y="15" width="243" height="80"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Multiline Label" id="yZ5-gs-9kb">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Swift color declaration..." id="yZ5-gs-9kb">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -772,7 +771,7 @@
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="51m-4R-1vC">
                         <rect key="frame" x="17" y="118" width="243" height="80"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Multiline Label" id="MUm-57-PrH">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Objective-C color declaration..." id="MUm-57-PrH">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -791,7 +790,7 @@
                     </textField>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="41.5" y="266"/>
+            <point key="canvasLocation" x="41.5" y="262.5"/>
         </window>
         <textField verticalHuggingPriority="750" id="WwY-DT-Sgo">
             <rect key="frame" x="0.0" y="0.0" width="96" height="22"/>
